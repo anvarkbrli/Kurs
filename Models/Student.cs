@@ -64,7 +64,7 @@ namespace ConsoleApp1.Models
 
         public string GetStudent()
         {
-            return $"{_firstName}{_lastName}{_email}{_username}";
+            return $"{_firstName} {_lastName} {_email} {_username}";
         }
 
         public string GetEmail()
