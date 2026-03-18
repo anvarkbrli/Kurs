@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Models
 {
-    internal class Student
+    internal class Student : BaseUser
     {
          //string _username;
          public string Username { get; set; }
