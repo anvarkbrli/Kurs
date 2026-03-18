@@ -7,6 +7,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
            //Student student = new Student("EnverKebirli", "Enver", "Kebirli",,"enverkebirli@gmail.com", "enverapa103")
             Student student1 = new Student()
             {
@@ -143,6 +144,18 @@ namespace ConsoleApp1
 
             Register.RegisterStudent(student5);
             Register.RegisterStudent(student10);
+
+            Register.Login();
+
+            //Student student = new Student("EnverKebirli", "Enver", "Kebirli","077-570-46-99","enverkebirli@gmail.com", "enverapa103");
+
+            //Console.WriteLine(student.GetName());
+            //Console.WriteLine(student.GetBirthDay());
+            //Console.WriteLine(student.GetStudent());
+            //Console.WriteLine(student.GetContact());
+            //Console.WriteLine(student.GetEmail());
+            //Console.WriteLine(student.GetGroup());
+
 
         }
     }

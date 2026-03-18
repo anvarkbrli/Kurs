@@ -18,9 +18,27 @@ namespace ConsoleApp1.Actions
             foreach (var s in students)
             {
                 Console.WriteLine(s.Email +" - " + s.Password);
+            }    
+        }
+        public static void Login()
+        {
+            Console.Write("Username: ");
+            string username = Console.ReadLine();
+
+            Console.Write("Password: ");
+            string password = Console.ReadLine();
+
+            var user = students.FirstOrDefault(s => s.Username == username && s.Password == password);
+
+            if (user != null)
+            {
+                Console.WriteLine($"Xos geldiniz, {user.FirstName}!");
             }
-           
-               
+            else
+            {
+                Console.WriteLine("Username ve ya password sehvdir!");
+            }
         }
     }
 }
+

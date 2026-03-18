@@ -70,10 +70,17 @@ namespace ConsoleApp1.Models
         //    return $"{_firstName} {_lastName}";
         //}
 
+
         //public string GetGroup()
         //{
         //    return _groupNumber.ToString();
         //}
+
+        //public string GetStudent()
+        //{
+        //    return $"{_firstName} {_lastName} {_email} {_username}";
+        //}
+
 
         //public string GetStudent()
         //{
